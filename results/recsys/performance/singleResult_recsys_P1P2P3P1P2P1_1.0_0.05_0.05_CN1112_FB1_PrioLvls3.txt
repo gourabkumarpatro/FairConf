@@ -1,0 +1,70 @@
+
+------- Partitioning V starts -------
+
+Example: For 3 prio-levels, V_partitioned_list contains [[Top Prio], [Mid Prio], [Low Prio]]
+Total interest of each talk: [ 583.  425.  404.  450.  480.  429.  420.  522.  458.  408.  422.  941.
+  488.  434.  434.  424. 1112.  441.  487.  435.  447.  654.  449.  846.
+  767.  480.]
+Talk indices, descending by total interest: [16 11 23 24 21  0  7 12 18 25  4  8  3 22 20 17 19 13 14  5  1 15 10  6
+  9  2]
+numTalksInEachPrioLvl: 8
+--------------
+Talk indices, in priority-partition #1: [16, 11, 23, 24, 21, 0, 7, 12]
+Shape of Talk-matrix, for priority-partition #1: (1112, 8)
+--------------
+Talk indices, in priority-partition #2: [18, 25, 4, 8, 3, 22, 20, 17]
+Shape of Talk-matrix, for priority-partition #2: (1112, 8)
+--------------
+Talk indices, in priority-partition #3: [19, 13, 14, 5, 1, 15, 10, 6, 9, 2]
+Shape of Talk-matrix, for priority-partition #3: (1112, 10)
+
+------- Partitioning V ends -------
+
+============================== recsys
+recsys, numTalks = 26, numSlots = 48
+============================== baseline_results
+------- SWM Metrics:
+NCG_Gini        : 0.103
+NCG_max-NCG_min : 0.750
+NCG_mean        : 0.600
+NEC_Gini        : {P1 : 0.067, P2 : 0.042, P3 : 0.020}
+NEC_max-NEC_min : {P1 : 0.447, P2 : 0.328, P3 : 0.117}
+NEC_mean        : {P1 : 1.458, P2 : 1.094, P3 : 0.852}
+TEP             : 8218.0
+
+------- PFair Metrics:
+NCG_Gini        : 0.116
+NCG_max-NCG_min : 0.657
+NCG_mean        : 0.540
+NEC_Gini        : {P1 : 0.145, P2 : 0.096, P3 : 0.247}
+NEC_max-NEC_min : {P1 : 0.976, P2 : 0.636, P3 : 0.632}
+NEC_mean        : {P1 : 1.376, P2 : 1.124, P3 : 0.547}
+TEP             : 7390.0
+
+------- SFair Metrics:
+NCG_Gini        : 0.124
+NCG_max-NCG_min : 0.889
+NCG_mean        : 0.583
+NEC_Gini        : {P1 : 0.122, P2 : 0.089, P3 : 0.110}
+NEC_max-NEC_min : {P1 : 0.908, P2 : 0.773, P3 : 0.560}
+NEC_mean        : {P1 : 1.340, P2 : 1.192, P3 : 0.802}
+TEP             : 7999.0
+
+------- IAM Metrics:
+NCG_Gini        : 0.252
+NCG_max-NCG_min : 0.900
+NCG_mean        : 0.446
+NEC_Gini        : {P1 : 0.033, P2 : 0.019, P3 : 0.026}
+NEC_max-NEC_min : {P1 : 0.154, P2 : 0.106, P3 : 0.122}
+NEC_mean        : {P1 : 0.936, P2 : 0.857, P3 : 0.816}
+TEP             : 6121.0
+
+============================== Results of instance 'recsys_P1P2P3P1P2P1_1.0_0.05_0.05_CN1112_FB1_PrioLvls3.csv'
+NCG_Gini        : 0.103
+NCG_max-NCG_min : 0.727
+NCG_mean        : 0.591
+NEC_Gini        : {P1 : 0.134, P2 : 0.062, P3 : 0.049}
+NEC_max-NEC_min : {P1 : 1.094, P2 : 0.355, P3 : 0.242}
+NEC_mean        : {P1 : 1.378, P2 : 1.179, P3 : 0.817}
+TEP             : 8095.0
+

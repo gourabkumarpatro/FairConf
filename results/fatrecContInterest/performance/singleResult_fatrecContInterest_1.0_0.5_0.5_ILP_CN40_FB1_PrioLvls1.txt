@@ -1,0 +1,48 @@
+============================== fatrecContInterest
+fatrecContInterest, numTalks = 11, numSlots = 24
+============================== baseline_results
+------- SWM Metrics:
+NCG_Gini        : 0.078
+NCG_max-NCG_min : 0.782
+NCG_mean        : 0.913
+NEC_Gini        : 0.065
+NEC_max-NEC_min : 0.301
+NEC_mean        : 0.892
+TEP             : 179.90328254407615
+
+------- PFair Metrics:
+NCG_Gini        : 0.027
+NCG_max-NCG_min : 0.091
+NCG_mean        : 0.641
+NEC_Gini        : 0.197
+NEC_max-NEC_min : 0.696
+NEC_mean        : 0.662
+TEP             : 126.63173789070535
+
+------- SFair Metrics:
+NCG_Gini        : 0.229
+NCG_max-NCG_min : 0.835
+NCG_mean        : 0.709
+NEC_Gini        : 0.046
+NEC_max-NEC_min : 0.205
+NEC_mean        : 0.727
+TEP             : 139.85601364804012
+
+------- IAM Metrics:
+NCG_Gini        : 0.082
+NCG_max-NCG_min : 0.794
+NCG_mean        : 0.908
+NEC_Gini        : 0.065
+NEC_max-NEC_min : 0.301
+NEC_mean        : 0.886
+TEP             : 178.95611768759073
+
+============================== Results of instance 'fatrecContInterest_1.0_0.5_0.5_ILP_CN40_FB1_PrioLvls1.csv'
+NCG_Gini        : 0.042
+NCG_max-NCG_min : 0.193
+NCG_mean        : 0.669
+NEC_Gini        : 0.066
+NEC_max-NEC_min : 0.286
+NEC_mean        : 0.706
+TEP             : 132.00706424017355
+

@@ -1,0 +1,48 @@
+============================== syn10
+syn10, numTalks = 10, numSlots = 10
+============================== baseline_results
+------- SWM Metrics:
+NCG_Gini        : 0.037
+NCG_max-NCG_min : 0.223
+NCG_mean        : 0.890
+NEC_Gini        : 0.078
+NEC_max-NEC_min : 0.386
+NEC_mean        : 0.858
+TEP             : 30.224415486673877
+
+------- PFair Metrics:
+NCG_Gini        : 0.010
+NCG_max-NCG_min : 0.039
+NCG_mean        : 0.824
+NEC_Gini        : 0.086
+NEC_max-NEC_min : 0.379
+NEC_mean        : 0.806
+TEP             : 27.80547321591618
+
+------- SFair Metrics:
+NCG_Gini        : 0.078
+NCG_max-NCG_min : 0.411
+NCG_mean        : 0.720
+NEC_Gini        : 0.041
+NEC_max-NEC_min : 0.138
+NEC_mean        : 0.702
+TEP             : 24.666999452779947
+
+------- IAM Metrics:
+NCG_Gini        : 0.087
+NCG_max-NCG_min : 0.471
+NCG_mean        : 0.751
+NEC_Gini        : 0.141
+NEC_max-NEC_min : 0.542
+NEC_mean        : 0.718
+TEP             : 25.716271790133003
+
+============================== Results of instance 'syn10_1.0_0.5_0.5_ILP_CN10_FB1_PrioLvls1.csv'
+NCG_Gini        : 0.016
+NCG_max-NCG_min : 0.068
+NCG_mean        : 0.849
+NEC_Gini        : 0.066
+NEC_max-NEC_min : 0.286
+NEC_mean        : 0.820
+TEP             : 28.69110533448474
+
